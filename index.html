@@ -3,12 +3,34 @@
     <script src="libraries/p5.dom.min.js"></script>
     <script src="libraries/p5.sound.min.js"></script>
     <script src="libraries/matter.js"></script>
-    <script src="js/ground.js"></script>
-    <script src="js/divisions.js"></script>
-    <script src="js/Particle.js"></script>
-    <script src="js/Particle2.js"></script>
-    <script src="js/Plinko.js"></script>
-   
+    <script src="libraries/p5.play.js"></script>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDgVFWR85BgW9yG1nm7_V0l3MrZ5-21pcM",
+    authDomain: "basket-project-f7f54.firebaseapp.com",
+    databaseURL: "https://basket-project-f7f54-default-rtdb.firebaseio.com",
+    projectId: "basket-project-f7f54",
+    storageBucket: "basket-project-f7f54.appspot.com",
+    messagingSenderId: "627121072336",
+    appId: "1:627121072336:web:bfb98688bf817a22e356d5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <!--Add Your JS files here -->
+    <script src="js/game.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/form.js"></script>
+  
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
 
